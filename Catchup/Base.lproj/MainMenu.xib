@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="494" id="495"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="494" customClass="PSAppDelegate">
+            <connections>
+                <outlet property="about" destination="Y7d-jy-eHv" id="OrO-1z-v9e"/>
+                <outlet property="interrupt" destination="ACR-Tl-1w3" id="zCF-5Q-8dx"/>
+                <outlet property="longBreak" destination="6dU-6m-qm1" id="VqS-oJ-6h4"/>
+                <outlet property="menu" destination="Cnb-Y0-cR0" id="e9j-2w-nwk"/>
+                <outlet property="pause" destination="rEo-Ku-DcO" id="MTH-2B-a3g"/>
+                <outlet property="quit" destination="7Yy-l2-Lah" id="1o9-lN-8LF"/>
+                <outlet property="resume" destination="dHz-7r-eAp" id="lFB-bE-bRA"/>
+                <outlet property="shortBreak" destination="qXh-Gr-cD5" id="mgG-ao-jQM"/>
+                <outlet property="start" destination="l2h-1o-KxR" id="JjO-bY-JNz"/>
+                <outlet property="stop" destination="VPW-zs-3Gr" id="oWd-Lf-rpr"/>
+            </connections>
+        </customObject>
+        <customObject id="420" customClass="NSFontManager"/>
+        <menu id="Cnb-Y0-cR0">
+            <items>
+                <menuItem title="Start" id="l2h-1o-KxR">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="start:" target="494" id="PmZ-D8-nKr"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Stop" id="VPW-zs-3Gr">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="stop:" target="494" id="bRF-qc-n5j"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Break" id="rEo-Ku-DcO">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Break" id="g4I-Jo-Cka">
+                        <items>
+                            <menuItem title="Short" id="qXh-Gr-cD5">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="shortBreak:" target="494" id="OpR-fB-pq6"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Long" id="6dU-6m-qm1">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="longBreak:" target="494" id="1CL-Pb-F9c"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Interrupt" id="ACR-Tl-1w3">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="interrupt:" target="494" id="gff-Ou-pLs"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Resume" id="dHz-7r-eAp">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="resume:" target="494" id="Ihj-Qp-2Le"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="pfT-ci-9yc"/>
+                <menuItem title="About" id="Y7d-jy-eHv">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="about:" target="494" id="iZx-ik-eVO"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="4nQ-d2-gUS"/>
+                <menuItem title="Quit" id="7Yy-l2-Lah">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quit:" target="494" id="KmF-Jx-Epo"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>

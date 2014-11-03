@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4178AF188D1F3B00059113 /* PSWorkStates.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4178AE188D1F3B00059113 /* PSWorkStates.m */; };
+		CD4D120C1889BFF8009BD82D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4D120B1889BFF8009BD82D /* Cocoa.framework */; };
+		CD4D12161889BFF9009BD82D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4D12141889BFF9009BD82D /* InfoPlist.strings */; };
+		CD4D12181889BFF9009BD82D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4D12171889BFF9009BD82D /* main.m */; };
+		CD4D121C1889BFF9009BD82D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD4D121A1889BFF9009BD82D /* Credits.rtf */; };
+		CD4D121F1889BFF9009BD82D /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4D121E1889BFF9009BD82D /* PSAppDelegate.m */; };
+		CD4D12221889BFF9009BD82D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4D12201889BFF9009BD82D /* MainMenu.xib */; };
+		CD4D12241889BFF9009BD82D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4D12231889BFF9009BD82D /* Images.xcassets */; };
+		CD4D122B1889BFF9009BD82D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4D122A1889BFF9009BD82D /* XCTest.framework */; };
+		CD4D122C1889BFF9009BD82D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4D120B1889BFF8009BD82D /* Cocoa.framework */; };
+		CD4D12341889BFF9009BD82D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4D12321889BFF9009BD82D /* InfoPlist.strings */; };
+		CD4D12361889BFF9009BD82D /* CatchupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4D12351889BFF9009BD82D /* CatchupTests.m */; };
+		CD8E10D818C9C4790003AAD6 /* tomato_icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8E10D718C9C4790003AAD6 /* tomato_icon-512.png */; };
+		CDE74962188BE9BB0084DB36 /* tomato_empty-512.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE74961188BE9BB0084DB36 /* tomato_empty-512.png */; };
+		CDE74964188BE9C60084DB36 /* tomato_green-512.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE74963188BE9C60084DB36 /* tomato_green-512.png */; };
+		CDE74966188BEAE40084DB36 /* tomato_flash-512.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE74965188BEAE40084DB36 /* tomato_flash-512.png */; };
+		CDE74968188BEAEE0084DB36 /* tomato_orange-512.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE74967188BEAEE0084DB36 /* tomato_orange-512.png */; };
+		CDE7496A188BEAF70084DB36 /* tomato_red-512.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE74969188BEAF70084DB36 /* tomato_red-512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4D122D1889BFF9009BD82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4D12001889BFF8009BD82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4D12071889BFF8009BD82D;
+			remoteInfo = Catchup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4178AD188D1F3B00059113 /* PSWorkStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWorkStates.h; sourceTree = "<group>"; };
+		CD4178AE188D1F3B00059113 /* PSWorkStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWorkStates.m; sourceTree = "<group>"; };
+		CD4D12081889BFF8009BD82D /* Catchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4D120B1889BFF8009BD82D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD4D120E1889BFF9009BD82D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD4D120F1889BFF9009BD82D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD4D12101889BFF9009BD82D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD4D12131889BFF9009BD82D /* Catchup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catchup-Info.plist"; sourceTree = "<group>"; };
+		CD4D12151889BFF9009BD82D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4D12171889BFF9009BD82D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD4D12191889BFF9009BD82D /* Catchup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catchup-Prefix.pch"; sourceTree = "<group>"; };
+		CD4D121B1889BFF9009BD82D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD4D121D1889BFF9009BD82D /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		CD4D121E1889BFF9009BD82D /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		CD4D12211889BFF9009BD82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD4D12231889BFF9009BD82D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD4D12291889BFF9009BD82D /* CatchupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4D122A1889BFF9009BD82D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD4D12311889BFF9009BD82D /* CatchupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatchupTests-Info.plist"; sourceTree = "<group>"; };
+		CD4D12331889BFF9009BD82D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4D12351889BFF9009BD82D /* CatchupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatchupTests.m; sourceTree = "<group>"; };
+		CD8E10D718C9C4790003AAD6 /* tomato_icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_icon-512.png"; sourceTree = "<group>"; };
+		CDE74961188BE9BB0084DB36 /* tomato_empty-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_empty-512.png"; sourceTree = "<group>"; };
+		CDE74963188BE9C60084DB36 /* tomato_green-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_green-512.png"; sourceTree = "<group>"; };
+		CDE74965188BEAE40084DB36 /* tomato_flash-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_flash-512.png"; sourceTree = "<group>"; };
+		CDE74967188BEAEE0084DB36 /* tomato_orange-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_orange-512.png"; sourceTree = "<group>"; };
+		CDE74969188BEAF70084DB36 /* tomato_red-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_red-512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4D12051889BFF8009BD82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D120C1889BFF8009BD82D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D12261889BFF9009BD82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D122C1889BFF9009BD82D /* Cocoa.framework in Frameworks */,
+				CD4D122B1889BFF9009BD82D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4D11FF1889BFF8009BD82D = {
+			isa = PBXGroup;
+			children = (
+				CD4D12111889BFF9009BD82D /* Catchup */,
+				CD4D122F1889BFF9009BD82D /* CatchupTests */,
+				CD4D120A1889BFF8009BD82D /* Frameworks */,
+				CD4D12091889BFF8009BD82D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4D12091889BFF8009BD82D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D12081889BFF8009BD82D /* Catchup.app */,
+				CD4D12291889BFF9009BD82D /* CatchupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4D120A1889BFF8009BD82D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D120B1889BFF8009BD82D /* Cocoa.framework */,
+				CD4D122A1889BFF9009BD82D /* XCTest.framework */,
+				CD4D120D1889BFF8009BD82D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4D120D1889BFF8009BD82D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D120E1889BFF9009BD82D /* AppKit.framework */,
+				CD4D120F1889BFF9009BD82D /* CoreData.framework */,
+				CD4D12101889BFF9009BD82D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD4D12111889BFF9009BD82D /* Catchup */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D121D1889BFF9009BD82D /* PSAppDelegate.h */,
+				CD4D121E1889BFF9009BD82D /* PSAppDelegate.m */,
+				CD4178AD188D1F3B00059113 /* PSWorkStates.h */,
+				CD4178AE188D1F3B00059113 /* PSWorkStates.m */,
+				CD4D12201889BFF9009BD82D /* MainMenu.xib */,
+				CD4D12231889BFF9009BD82D /* Images.xcassets */,
+				CD4D12121889BFF9009BD82D /* Supporting Files */,
+			);
+			path = Catchup;
+			sourceTree = "<group>";
+		};
+		CD4D12121889BFF9009BD82D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E10D718C9C4790003AAD6 /* tomato_icon-512.png */,
+				CDE74969188BEAF70084DB36 /* tomato_red-512.png */,
+				CDE74967188BEAEE0084DB36 /* tomato_orange-512.png */,
+				CDE74965188BEAE40084DB36 /* tomato_flash-512.png */,
+				CDE74963188BE9C60084DB36 /* tomato_green-512.png */,
+				CDE74961188BE9BB0084DB36 /* tomato_empty-512.png */,
+				CD4D12131889BFF9009BD82D /* Catchup-Info.plist */,
+				CD4D12141889BFF9009BD82D /* InfoPlist.strings */,
+				CD4D12171889BFF9009BD82D /* main.m */,
+				CD4D12191889BFF9009BD82D /* Catchup-Prefix.pch */,
+				CD4D121A1889BFF9009BD82D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4D122F1889BFF9009BD82D /* CatchupTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D12351889BFF9009BD82D /* CatchupTests.m */,
+				CD4D12301889BFF9009BD82D /* Supporting Files */,
+			);
+			path = CatchupTests;
+			sourceTree = "<group>";
+		};
+		CD4D12301889BFF9009BD82D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4D12311889BFF9009BD82D /* CatchupTests-Info.plist */,
+				CD4D12321889BFF9009BD82D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4D12071889BFF8009BD82D /* Catchup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4D12391889BFF9009BD82D /* Build configuration list for PBXNativeTarget "Catchup" */;
+			buildPhases = (
+				CD4D12041889BFF8009BD82D /* Sources */,
+				CD4D12051889BFF8009BD82D /* Frameworks */,
+				CD4D12061889BFF8009BD82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Catchup;
+			productName = Catchup;
+			productReference = CD4D12081889BFF8009BD82D /* Catchup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4D12281889BFF9009BD82D /* CatchupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4D123C1889BFF9009BD82D /* Build configuration list for PBXNativeTarget "CatchupTests" */;
+			buildPhases = (
+				CD4D12251889BFF9009BD82D /* Sources */,
+				CD4D12261889BFF9009BD82D /* Frameworks */,
+				CD4D12271889BFF9009BD82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4D122E1889BFF9009BD82D /* PBXTargetDependency */,
+			);
+			name = CatchupTests;
+			productName = CatchupTests;
+			productReference = CD4D12291889BFF9009BD82D /* CatchupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4D12001889BFF8009BD82D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pragmatic Solutions";
+				TargetAttributes = {
+					CD4D12281889BFF9009BD82D = {
+						TestTargetID = CD4D12071889BFF8009BD82D;
+					};
+				};
+			};
+			buildConfigurationList = CD4D12031889BFF8009BD82D /* Build configuration list for PBXProject "Catchup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4D11FF1889BFF8009BD82D;
+			productRefGroup = CD4D12091889BFF8009BD82D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4D12071889BFF8009BD82D /* Catchup */,
+				CD4D12281889BFF9009BD82D /* CatchupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4D12061889BFF8009BD82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE74964188BE9C60084DB36 /* tomato_green-512.png in Resources */,
+				CD4D12161889BFF9009BD82D /* InfoPlist.strings in Resources */,
+				CDE74966188BEAE40084DB36 /* tomato_flash-512.png in Resources */,
+				CD8E10D818C9C4790003AAD6 /* tomato_icon-512.png in Resources */,
+				CD4D12241889BFF9009BD82D /* Images.xcassets in Resources */,
+				CDE7496A188BEAF70084DB36 /* tomato_red-512.png in Resources */,
+				CDE74968188BEAEE0084DB36 /* tomato_orange-512.png in Resources */,
+				CDE74962188BE9BB0084DB36 /* tomato_empty-512.png in Resources */,
+				CD4D121C1889BFF9009BD82D /* Credits.rtf in Resources */,
+				CD4D12221889BFF9009BD82D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D12271889BFF9009BD82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D12341889BFF9009BD82D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4D12041889BFF8009BD82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D12181889BFF9009BD82D /* main.m in Sources */,
+				CD4178AF188D1F3B00059113 /* PSWorkStates.m in Sources */,
+				CD4D121F1889BFF9009BD82D /* PSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4D12251889BFF9009BD82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D12361889BFF9009BD82D /* CatchupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4D122E1889BFF9009BD82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4D12071889BFF8009BD82D /* Catchup */;
+			targetProxy = CD4D122D1889BFF9009BD82D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4D12141889BFF9009BD82D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4D12151889BFF9009BD82D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD4D121A1889BFF9009BD82D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4D121B1889BFF9009BD82D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD4D12201889BFF9009BD82D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4D12211889BFF9009BD82D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD4D12321889BFF9009BD82D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4D12331889BFF9009BD82D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4D12371889BFF9009BD82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD4D12381889BFF9009BD82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD4D123A1889BFF9009BD82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catchup/Catchup-Prefix.pch";
+				INFOPLIST_FILE = "Catchup/Catchup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD4D123B1889BFF9009BD82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catchup/Catchup-Prefix.pch";
+				INFOPLIST_FILE = "Catchup/Catchup-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD4D123D1889BFF9009BD82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catchup.app/Contents/MacOS/Catchup";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catchup/Catchup-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CatchupTests/CatchupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD4D123E1889BFF9009BD82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catchup.app/Contents/MacOS/Catchup";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catchup/Catchup-Prefix.pch";
+				INFOPLIST_FILE = "CatchupTests/CatchupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4D12031889BFF8009BD82D /* Build configuration list for PBXProject "Catchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4D12371889BFF9009BD82D /* Debug */,
+				CD4D12381889BFF9009BD82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4D12391889BFF9009BD82D /* Build configuration list for PBXNativeTarget "Catchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4D123A1889BFF9009BD82D /* Debug */,
+				CD4D123B1889BFF9009BD82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4D123C1889BFF9009BD82D /* Build configuration list for PBXNativeTarget "CatchupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4D123D1889BFF9009BD82D /* Debug */,
+				CD4D123E1889BFF9009BD82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4D12001889BFF8009BD82D /* Project object */;
+}

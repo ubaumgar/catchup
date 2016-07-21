@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3579F7E1CDAD055008DFFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3579F7D1CDAD055008DFFC1 /* AppDelegate.swift */; };
-		D3579F801CDAD055008DFFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3579F7F1CDAD055008DFFC1 /* Assets.xcassets */; };
+		D3579F801CDAD055008DFFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3579F7F1CDAD055008DFFC1 /* Images.xcassets */; };
 		D3579F831CDAD055008DFFC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3579F811CDAD055008DFFC1 /* MainMenu.xib */; };
 		D3579F901CDAD10C008DFFC1 /* tomato_empty-512.png in Resources */ = {isa = PBXBuildFile; fileRef = D3579F8A1CDAD10C008DFFC1 /* tomato_empty-512.png */; };
 		D3579F911CDAD10C008DFFC1 /* tomato_flash-512.png in Resources */ = {isa = PBXBuildFile; fileRef = D3579F8B1CDAD10C008DFFC1 /* tomato_flash-512.png */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		D3579F7A1CDAD055008DFFC1 /* Catchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3579F7D1CDAD055008DFFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3579F7F1CDAD055008DFFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3579F7F1CDAD055008DFFC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3579F821CDAD055008DFFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D3579F841CDAD055008DFFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3579F8A1CDAD10C008DFFC1 /* tomato_empty-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_empty-512.png"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			children = (
 				D3B5F39C1CE547BB004557BB /* Credits.rtf */,
 				D3579F7D1CDAD055008DFFC1 /* AppDelegate.swift */,
-				D3579F7F1CDAD055008DFFC1 /* Assets.xcassets */,
+				D3579F7F1CDAD055008DFFC1 /* Images.xcassets */,
 				D3579F811CDAD055008DFFC1 /* MainMenu.xib */,
 				D3579F841CDAD055008DFFC1 /* Info.plist */,
 				D3579F8A1CDAD10C008DFFC1 /* tomato_empty-512.png */,
@@ -141,7 +141,7 @@
 				D3B5F39D1CE547BB004557BB /* Credits.rtf in Resources */,
 				D3579F901CDAD10C008DFFC1 /* tomato_empty-512.png in Resources */,
 				D3579F911CDAD10C008DFFC1 /* tomato_flash-512.png in Resources */,
-				D3579F801CDAD055008DFFC1 /* Assets.xcassets in Resources */,
+				D3579F801CDAD055008DFFC1 /* Images.xcassets in Resources */,
 				D3579F831CDAD055008DFFC1 /* MainMenu.xib in Resources */,
 				D3579F941CDAD10C008DFFC1 /* tomato_orange-512.png in Resources */,
 				D3579F921CDAD10C008DFFC1 /* tomato_green-512.png in Resources */,
